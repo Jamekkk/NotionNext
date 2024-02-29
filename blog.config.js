@@ -49,6 +49,10 @@ const BLOG = {
   // 后面空格隔开的font-light的字体粗细，留空是默认粗细；参考 https://www.tailwindcss.cn/docs/font-weight
   FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans font-light',
   // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
+  .notion {
+  font-size: 3rem;
+}
+
   FONT_URL: [
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
@@ -90,9 +94,7 @@ const BLOG = {
   ],
   FONT_AWESOME: process.env.NEXT_PUBLIC_FONT_AWESOME_PATH || 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', // font-awesome 字体图标地址; 可选 /css/all.min.css ， https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
 
-  .notion {
-  font-size: 3rem;
-}
+ 
 
   // END ************网站字体*****************
 
